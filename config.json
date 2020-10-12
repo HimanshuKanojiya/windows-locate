@@ -1,0 +1,8 @@
+{
+    "drive_paths":["D:/"],
+    "disallow_paths":[],
+    "allowed_paths":[],
+    "allowed_extensions":["pdf"],
+    "disallow_extensions":[],
+    "db_name":"local-db"
+}
