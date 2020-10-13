@@ -1,4 +1,8 @@
 # Windows locate
+
+**IMPORTANT**
+This branch is for the source code of windows locate.
+
 Windows Locate is a python script that is mainly working to find your files and folders paths quickly in the windows. It searches through a database that is built by the Script manually via passing some commands & arguments and configuring the configuration file. 
 
 As of now, windows Locate does not update the database in realtime, so each time, you need to run it to update the database.
