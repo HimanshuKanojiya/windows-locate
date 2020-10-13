@@ -25,6 +25,7 @@ Note: In paths, don't give backlash, if presents, then replace them with the for
 For example, Please see the below sample of the config.json file.
 
 Sample of config.json file:
+```
 {
     "drive_paths":["D:/","C:/"],
     "disallow_paths":["D:/i am programmer/code files"],
@@ -33,7 +34,7 @@ Sample of config.json file:
     "disallow_extensions":["mkv","mp4"],
     "db_name":"local-db"
 }
-
+```
 
 Windows Locate program inspired by the Linux Locate command. You can read more about it at https://en.wikipedia.org/wiki/Locate_(Unix)
 
