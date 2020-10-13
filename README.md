@@ -15,7 +15,12 @@ Windows Locate is a portable program, and it does not require any software or pr
    - If you want to index only folders and some pdf or other files, then you can specify an extension in allowed_extensions.
    - If you want to ignore some files formats to be indexed, then you can specify them in disallow_extensions
    - Important: Don't make changes in db_name
-
+4. After configuring the config.json file, open cmd and navigate to the Windows Locate.
+5. To run it, type these commands in cmd:
+   - For searching the file: windows-locate.exe -search "query_name" 
+   - For creating and updating the database: windows-locate.exe -createdb y
+   - For help type: windows-locate.exe -h
+   
 Format to specify things in config.json file, all required information will be saved between square braces [ ] and under double quotes:
 1.  In drive_paths, disallow_paths, allowed_paths, the path should mention between " " (double quotes). Example:  "D:/"
 2.  In allowed_extensions and disallow extensions, all extensions should mention between " " (double quotes) and without the prefix "." (dot).
