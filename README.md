@@ -9,12 +9,12 @@ Windows Locate is a portable program, and it does not require any software or pr
 1. Extract windows-locate.exe
 2. Make sure that config.json is in the same folder.
 3. Open config.json and give some required information like
-  - In drive_path, you can give a directory path to index and save in the database.
-  - Suppose you don't want to index some folders or path, then you can specify them in the disallow_paths.
-  - If you want to index only some folders, you can specify them in the allowed_paths. If you don't give any paths there, then the indexer will consider drive_path and scan the     full drive.
-  - If you want to index only folders and some pdf or other files, then you can specify an extension in allowed_extensions.
-  - If you want to ignore some files formats to be indexed, then you can specify them in disallow_extensions
-  - Important: Don't make changes in db_name
+   - In drive_path, you can give a directory path to index and save in the database.
+   - Suppose you don't want to index some folders or path, then you can specify them in the disallow_paths.
+   - If you want to index only some folders, you can specify them in the allowed_paths. If you don't give any paths there, then the indexer will consider drive_path and scan the     full drive.
+   - If you want to index only folders and some pdf or other files, then you can specify an extension in allowed_extensions.
+   - If you want to ignore some files formats to be indexed, then you can specify them in disallow_extensions
+   - Important: Don't make changes in db_name
 
 Format to specify things in config.json file, all required information will be saved between square braces [ ] and under double quotes:
 1.  In drive_paths, disallow_paths, allowed_paths, the path should mention between " " (double quotes). Example:  "D:/"
@@ -36,7 +36,7 @@ Sample of config.json file:
 }
 ```
 
-Windows Locate program inspired by the Linux Locate command. You can read more about it at https://en.wikipedia.org/wiki/Locate_(Unix)
+**Windows Locate program inspired by the Linux Locate command. You can read more about it at** https://en.wikipedia.org/wiki/Locate_(Unix)
 
 
 
