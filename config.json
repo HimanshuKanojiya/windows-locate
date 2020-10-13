@@ -1,8 +1,8 @@
 {
     "drive_paths":["D:/"],
     "disallow_paths":[],
-    "allowed_paths":[],
-    "allowed_extensions":["pdf"],
+    "allowed_paths":["D:/19_udacity_dsa-master"],
+    "allowed_extensions":[],
     "disallow_extensions":[],
     "db_name":"local-db"
 }
