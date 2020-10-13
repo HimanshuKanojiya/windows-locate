@@ -38,7 +38,6 @@ Sample of config.json file:
 
 **Windows Locate program inspired by the Linux Locate command. You can read more about it at** https://en.wikipedia.org/wiki/Locate_(Unix)
 
-
-
+Want to a contribution, you can check out the **code-file** branch of this repository.
 
 
